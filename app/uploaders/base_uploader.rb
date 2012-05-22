@@ -1,5 +1,7 @@
 # encoding: utf-8
 require 'carrierwave/processing/mini_magick'
+# To force MiniMagick to us gm as processor
+MiniMagick.processor = :gm
 class BaseUploader < CarrierWave::Uploader::Base
   include CarrierWave::MiniMagick
 
