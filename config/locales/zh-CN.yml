@@ -7,7 +7,7 @@
       page: Wiki
     attributes:
       user:
-        name: "名字"
+        name: "姓名"
         login: "用户名"
         email: "Email"
         avatar: "头像"
@@ -43,7 +43,7 @@
         locked: 锁定开关
         change_desc: 变更描述
       site:
-        name: 网站名称
+        name: 名称
         url: 地址
         desc: 简单介绍
         site_node_id: 分类

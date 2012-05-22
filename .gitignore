@@ -22,3 +22,4 @@ solr/data/
 solr/pids/
 bin/
 tags
+nohup.out
