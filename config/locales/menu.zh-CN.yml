@@ -76,7 +76,7 @@
     upload_and_insert_code: "上传并插入代码"
     uploading: "正在上传"
   sites:
-    create: 提交网站
+    create: 提交信息
   menu:
     topics: "社区"
     wiki: "知识库"
