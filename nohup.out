@@ -1,0 +1,661 @@
+Tue May 22 09:35:12 [initandlisten] MongoDB starting : pid=1444 port=27017 dbpath=/Users/jfreebird/db 64-bit host=localhost
+Tue May 22 09:35:12 [initandlisten] db version v2.0.3, pdfile version 4.5
+Tue May 22 09:35:12 [initandlisten] git version: 05bb8aa793660af8fce7e36b510ad48c27439697
+Tue May 22 09:35:12 [initandlisten] build info: Darwin erh2.10gen.cc 9.8.0 Darwin Kernel Version 9.8.0: Wed Jul 15 16:55:01 PDT 2009; root:xnu-1228.15.4~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_40
+Tue May 22 09:35:12 [initandlisten] options: { dbpath: "/Users/jfreebird/db" }
+Tue May 22 09:35:12 [initandlisten] journal dir=/Users/jfreebird/db/journal
+Tue May 22 09:35:12 [initandlisten] recover : no journal files present, no recovery needed
+Tue May 22 09:35:12 [websvr] admin web console waiting for connections on port 28017
+Tue May 22 09:35:12 [initandlisten] waiting for connections on port 27017
+Tue May 22 09:35:25 [initandlisten] connection accepted from 127.0.0.1:49902 #1
+Tue May 22 09:35:25 [conn1] end connection 127.0.0.1:49902
+Tue May 22 09:35:48 [initandlisten] connection accepted from 127.0.0.1:49903 #2
+Tue May 22 09:35:48 [conn2] end connection 127.0.0.1:49903
+Tue May 22 09:36:12 [clientcursormon] mem (MB) res:14 virt:2434 mapped:0
+Tue May 22 09:37:37 [initandlisten] connection accepted from 127.0.0.1:49968 #3
+Tue May 22 09:37:37 [conn3] end connection 127.0.0.1:49968
+Tue May 22 09:37:55 [initandlisten] connection accepted from 127.0.0.1:49969 #4
+Tue May 22 09:37:55 [conn4] end connection 127.0.0.1:49969
+Tue May 22 09:37:57 [initandlisten] connection accepted from 127.0.0.1:49970 #5
+Tue May 22 09:37:57 [conn5] end connection 127.0.0.1:49970
+Tue May 22 09:38:12 [clientcursormon] mem (MB) res:31 virt:2626 mapped:80
+Tue May 22 09:38:14 [initandlisten] connection accepted from 127.0.0.1:49974 #6
+Tue May 22 09:38:14 [conn6] end connection 127.0.0.1:49974
+[1565] 22 May 09:38:27 # Warning: no config file specified, using the default config. In order to specify a config file use 'redis-server /path/to/redis.conf'
+[1565] 22 May 09:38:27 * Server started, Redis version 2.4.8
+[1565] 22 May 09:38:27 * The server is now ready to accept connections on port 6379
+[1565] 22 May 09:38:27 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:38:32 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:38:37 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:38:42 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:38:47 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:38:52 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:38:57 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:02 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:07 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:12 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:17 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:22 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:27 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:32 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:37 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:43 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:48 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:39:53 - 0 clients connected (0 slaves), 922304 bytes in use
+Tue May 22 09:39:56 [initandlisten] connection accepted from 127.0.0.1:50004 #7
+Tue May 22 09:39:56 [conn7] end connection 127.0.0.1:50004
+[1565] 22 May 09:39:58 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:03 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:08 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:13 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:18 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:23 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:28 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:33 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:38 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:43 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:48 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:53 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:40:58 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:03 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:08 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:13 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:18 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:23 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:28 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:33 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:38 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:44 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:49 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:54 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:41:59 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:04 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:09 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:14 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:19 - 0 clients connected (0 slaves), 922304 bytes in use
+Tue May 22 09:42:20 [initandlisten] connection accepted from 127.0.0.1:50027 #8
+Tue May 22 09:42:20 [conn8] end connection 127.0.0.1:50027
+[1565] 22 May 09:42:24 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:29 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:34 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:39 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:44 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:49 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:54 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:42:59 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:43:04 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:43:09 - 0 clients connected (0 slaves), 922304 bytes in use
+Tue May 22 09:43:12 [clientcursormon] mem (MB) res:31 virt:2626 mapped:80
+[1565] 22 May 09:43:14 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:43:19 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:43:24 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:43:29 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:43:34 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:43:40 - 0 clients connected (0 slaves), 922304 bytes in use
+Tue May 22 09:43:44 [initandlisten] connection accepted from 127.0.0.1:50051 #9
+[1565] 22 May 09:43:45 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:43:50 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:43:55 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:00 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:05 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:10 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:15 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:20 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:25 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:30 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:35 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:40 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:45 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:50 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:44:55 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:00 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:05 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:10 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:15 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:20 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:25 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:30 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:35 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:41 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:46 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:51 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:45:56 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:01 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:06 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:11 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:16 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:21 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:26 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:31 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:36 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:41 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:46 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:51 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:46:56 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:01 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:06 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:11 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:16 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:21 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:26 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:31 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:37 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:42 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:47 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:52 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:47:57 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:48:02 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:48:07 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:48:12 - 0 clients connected (0 slaves), 922304 bytes in use
+Tue May 22 09:48:12 [clientcursormon] mem (MB) res:31 virt:2626 mapped:80
+[1565] 22 May 09:48:17 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:48:22 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:48:27 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:48:32 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:48:37 - 0 clients connected (0 slaves), 922304 bytes in use
+[1565] 22 May 09:48:42 - Accepted 127.0.0.1:50784
+[1565] 22 May 09:48:42 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:48:42 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:48:47 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:48:47 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:48:52 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:48:52 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:48:57 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:48:57 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:02 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:02 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:07 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:07 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:12 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:12 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:17 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:17 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:22 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:22 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:27 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:27 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:32 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:32 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:38 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:38 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:43 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:43 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:48 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:48 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:53 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:53 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:49:58 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:49:58 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:03 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:03 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:08 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:08 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:13 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:13 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:18 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:18 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:23 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:23 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:28 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:28 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:33 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:33 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:38 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:38 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:43 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:43 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:48 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:48 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:53 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:53 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:50:58 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:50:58 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:03 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:03 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:08 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:08 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:13 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:13 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:18 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:18 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:23 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:23 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:28 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:28 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:34 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:34 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:39 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:39 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:44 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:44 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:49 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:49 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:54 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:54 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:51:59 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:51:59 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:04 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:04 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:09 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:09 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:14 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:14 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:19 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:19 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:24 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:24 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:29 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:29 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:34 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:34 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:39 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:39 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:44 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:44 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:49 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:49 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:54 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:54 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:52:59 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:52:59 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:04 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:04 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:09 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:09 - 1 clients connected (0 slaves), 931456 bytes in use
+Tue May 22 09:53:12 [clientcursormon] mem (MB) res:32 virt:2626 mapped:80
+[1565] 22 May 09:53:14 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:14 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:19 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:19 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:24 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:24 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:30 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:30 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:35 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:35 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:40 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:40 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:45 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:45 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:50 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:50 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:53:55 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:53:55 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:00 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:00 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:05 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:05 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:10 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:10 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:15 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:15 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:20 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:20 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:25 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:25 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:30 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:30 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:35 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:35 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:40 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:40 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:45 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:45 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:50 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:50 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:54:55 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:54:55 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:00 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:00 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:05 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:05 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:10 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:10 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:15 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:15 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:20 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:20 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:26 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:26 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:31 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:31 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:36 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:36 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:41 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:41 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:46 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:46 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:51 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:51 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:55:56 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:55:56 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:01 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:01 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:06 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:06 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:11 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:11 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:16 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:16 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:21 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:21 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:26 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:26 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:31 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:31 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:36 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:36 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:41 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:41 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:46 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:46 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:51 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:51 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:56:56 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:56:56 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:01 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:01 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:06 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:06 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:11 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:11 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:16 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:16 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:22 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:22 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:27 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:27 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:32 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:32 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:37 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:37 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:42 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:42 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:47 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:47 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:52 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:52 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:57:57 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:57:57 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:02 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:02 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:07 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:07 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:12 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:12 - 1 clients connected (0 slaves), 931456 bytes in use
+Tue May 22 09:58:12 [clientcursormon] mem (MB) res:32 virt:2626 mapped:80
+[1565] 22 May 09:58:17 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:17 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:22 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:22 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:27 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:27 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:32 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:32 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:37 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:37 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:42 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:42 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:47 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:47 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:52 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:52 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:58:57 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:58:57 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:02 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:02 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:07 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:07 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:12 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:12 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:18 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:18 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:23 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:23 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:28 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:28 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:33 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:33 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:38 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:38 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:43 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:43 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:48 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:48 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:53 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:53 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 09:59:58 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 09:59:58 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:03 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:03 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:08 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:08 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:13 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:13 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:18 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:18 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:23 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:23 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:28 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:28 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:33 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:33 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:38 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:38 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:43 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:43 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:48 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:48 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:53 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:53 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:00:58 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:00:58 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:03 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:03 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:08 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:08 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:14 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:14 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:19 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:19 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:24 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:24 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:29 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:29 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:34 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:34 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:39 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:39 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:44 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:44 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:49 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:49 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:54 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:54 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:01:59 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:01:59 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:04 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:04 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:09 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:09 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:14 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:14 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:19 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:19 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:24 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:24 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:29 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:29 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:34 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:34 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:39 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:39 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:44 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:44 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:49 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:49 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:54 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:54 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:02:59 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:02:59 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:04 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:04 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:10 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:10 - 1 clients connected (0 slaves), 931456 bytes in use
+Tue May 22 10:03:12 [clientcursormon] mem (MB) res:32 virt:2626 mapped:80
+[1565] 22 May 10:03:15 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:15 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:20 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:20 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:25 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:25 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:30 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:30 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:35 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:35 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:40 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:40 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:45 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:45 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:50 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:50 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:03:55 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:03:55 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:00 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:00 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:05 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:05 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:10 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:10 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:15 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:15 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:20 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:20 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:25 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:25 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:30 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:30 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:35 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:35 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:40 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:40 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:45 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:45 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:50 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:50 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:04:55 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:04:55 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:00 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:00 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:05 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:05 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:11 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:11 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:16 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:16 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:21 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:21 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:26 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:26 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:31 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:31 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:36 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:36 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:41 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:41 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:46 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:46 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:51 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:51 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:05:56 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:05:56 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:01 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:01 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:06 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:06 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:11 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:11 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:16 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:16 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:21 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:21 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:26 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:26 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:31 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:31 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:36 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:36 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:41 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:41 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:46 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:46 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:51 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:51 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:06:56 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:06:56 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:01 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:01 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:06 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:06 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:12 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:12 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:17 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:17 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:22 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:22 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:27 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:27 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:32 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:32 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:37 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:37 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:42 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:42 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:47 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:47 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:52 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:52 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:07:57 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:07:57 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:08:02 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:02 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:08:07 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:07 - 1 clients connected (0 slaves), 931456 bytes in use
+[1565] 22 May 10:08:07 - Accepted 127.0.0.1:52103
+[1565] 22 May 10:08:12 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:12 - 2 clients connected (0 slaves), 940144 bytes in use
+Tue May 22 10:08:12 [clientcursormon] mem (MB) res:32 virt:2626 mapped:80
+[1565] 22 May 10:08:17 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:17 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:08:22 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:22 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:08:27 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:27 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:08:32 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:32 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:08:37 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:37 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:08:42 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:42 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:08:47 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:47 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:08:52 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:52 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:08:57 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:08:57 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:09:02 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:09:02 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:09:07 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:09:07 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:09:13 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:09:13 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:09:18 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:09:18 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:09:23 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:09:23 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:09:28 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:09:28 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:09:33 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:09:33 - 2 clients connected (0 slaves), 940144 bytes in use
+[1565] 22 May 10:09:38 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1565] 22 May 10:09:38 - 2 clients connected (0 slaves), 940144 bytes in use
