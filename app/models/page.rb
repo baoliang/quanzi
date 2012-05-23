@@ -7,7 +7,6 @@ class Page
   include Mongoid::Timestamps
   include Mongoid::BaseModel
   include Mongoid::SoftDelete
-  include Sunspot::Mongoid
 
   # 页面地址
   field :slug
