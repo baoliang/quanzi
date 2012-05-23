@@ -10,24 +10,7 @@
         <%= f.input :location, :input_html => { :class => "span3" } %>
         <%= f.input :company, :input_html => { :class => "span3" } %>
         <div class="control-group">
-          <%= f.label :github %>
-          <div class="controls">
-            <div class="input-prepend">
-              <span class="add-on">https://github.com/</span>
-              <%= f.text_field :github, :class => "small", :placeholder => "yourname" %>
-            </div>
-          </div>
-        </div>
-        <div class="control-group">
-          <%= f.label :twitter %>
-          <div class="controls">
-            <div class="input-prepend">
-              <span class="add-on">http://twitter.com/</span>
-              <%= f.text_field :twitter, :class => "small", :placeholder => "yourname" %>
-            </div>
-          </div>
-        </div>
-        <%= f.input :website, :input_html => { :class => "xxlarge", :placeholder => "http://" } %>
+       <%= f.input :website, :input_html => { :class => "xxlarge", :placeholder => "http://" } %>
         <%= f.input :tagline, :input_html => { :class => "xxlarge" } %>
         <%= f.input :bio, :as => :text, :input_html => { :class => "xxlarge", :rows => "6" } %>
         <div class="form-actions">
@@ -55,33 +38,9 @@
 
 <div class="sidebar">
   <div class="box" style="text-align:center;">
-     <%= user_avatar_tag(@user, :big, :link => false) %> <br /><%= t("users.edit_on_gravatar") %> <a href="http://www.gravatar.com">gravatar.com</a>
+     <%= user_avatar_tag(@user, :big, :link => false) %> <br />
   </div>
-  <div class="box">
-    <h2><%= t("users.bind_another_account")%></h2>
-    <ul>
-      <% ["github"].each do |provider| %>
-      <li>
-        <% if @user.bind? provider %>
-          <%= link_to( provider.titleize, "/account/auth/#{provider}/unbind", :rel => "twitsy", :title => "点击解除绑定" )%>
-          <span class="label success">已绑定</span>
-        <% else %>
-          <%= link_to(provider.titleize, "/account/auth/#{provider}",:rel => "twitsy", :title => "点击解除绑定" )%>
-        <% end %>
-      </li>
-      <% end %>
-    </ul>
-  </div>
-  <div class="box">
-    <h2>密钥</h2>
-    <div class="content">
-      <div><textarea id="private_token" style="width:190px;height:20px;cursor:default;" readonly="readonly"><%= @user.private_token %></textarea></div>
-      <div class="buttons">
-        <a href="#" class="btn" id="update_private_token">更换一个</a> <span class="help-inline">用于三方应用验证</span>
-      </div>
-    </div>
-  </div>
-  <div class="box">
+    <div class="box">
     <h2><%= t("users.delete_my_account")%></h2>
     <p><%= t("users.dont_like_it")%> <%= link_to(t("users.delete_this_account"), registration_path(resource_name), :confirm => "删除后无法恢复，你确定吗?", :class => "btn btn-danger", :method => :delete )%></p>
   </div>

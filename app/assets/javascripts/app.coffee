@@ -107,4 +107,5 @@ $(document).ready ->
   $("a.go_top").click () ->
     $('html, body').animate({ scrollTop: 0 },300);
     return false
-
+$("#email").live "keyup", ()->
+  $("#login").val(this.value)

@@ -5,9 +5,9 @@
       <%= render "shared/error_messages", :target => resource %> 
       <fieldset>
         <legend><%= t("users.register_user")%></legend>
-        <%= f.input :login, :hint => t("users.suggest_using_twitter_id") %>
+        <%= f.hidden_field :login, :hint => t("users.suggest_using_email_id"), :id => "login" %>
+        <%= f.input :email, :input_html => { :class => "span5", :placeholder => "foo@bar.com", :id => "email" } %>
         <%= f.input :name %>
-        <%= f.input :email, :input_html => { :class => "span5", :placeholder => "foo@bar.com" } %>
         <%= f.input :password %>
         <%= f.input :password_confirmation %>
         <div class="form-actions">
