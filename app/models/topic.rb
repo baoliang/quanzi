@@ -8,7 +8,7 @@ class Topic
   include Mongoid::Likeable
   include Mongoid::MarkdownBody
   include Redis::Objects
-  include Sunspot::Mongoid
+ # include Sunspot::Mongoid
   include Mongoid::Mentionable
 
   field :title
@@ -47,7 +47,7 @@ class Topic
   index :suggested_at
 
   counter :hits, :default => 0
-
+=begin
   searchable do
     text :title, :stored => true, :more_like_this => true
     text :body, :stored => true, :more_like_this => true
@@ -58,7 +58,7 @@ class Topic
     boolean :deleted_at
     time :replied_at
   end
-
+=end
   # scopes
   scope :last_actived, desc("replied_at").desc(:_id)
   # 推荐的话题

@@ -35,13 +35,6 @@ class Page
   validates_presence_of :change_desc, :if => Proc.new { |p| p.version_enable == true and !p.new_record? }
   validates_format_of :slug, :with => /^[a-z0-9\-_]+$/
   validates_uniqueness_of :slug
-
-  searchable do
-    text :title, :body, :slug
-    integer :user_id
-    boolean :deleted_at
-  end
-
   before_save :markdown_for_body_html
   def markdown_for_body_html
     return true if not self.body_changed?

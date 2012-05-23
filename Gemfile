@@ -5,6 +5,7 @@ gem "rails-i18n","0.1.8"
 gem "jquery-rails", "2.0.1"
 gem "rails_autolink", ">= 1.0.4"
 gem "jquery-atwho-rails", "0.1.3"
+gem "daemon-spawn"
 
 group :assets do
   gem 'sass-rails', "~> 3.2.3"
@@ -74,8 +75,6 @@ gem "social-share-button", "~> 0.0.3"
 gem 'simple_form', "2.0.2"
 
 # 全文搜索
-gem 'sunspot_rails',  "~> 1.3.2"
-gem 'sunspot_solr'
 
 # 用于组合小图片
 gem "sprite-factory", "1.4.1", :require => false
@@ -98,7 +97,6 @@ group :development, :test do
   gem 'thin'
   gem "rspec-cells"
   gem "capybara"
-  gem "sunspot-rails-tester"
 end
 
 group :production do
