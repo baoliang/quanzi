@@ -59,7 +59,8 @@ class UsersController < ApplicationController
 
   protected
   def find_user
-    @user = User.where(:login => /^#{params[:id]}$/i).first
+
+    @user = User.where(:login => request.path.split("/")[2]).first
     render_404 if @user.nil?
   end
 
