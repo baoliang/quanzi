@@ -35,7 +35,5 @@ namespace :test do
   task :init do
     desc "starting resque..."
     system("./script/resque start")
-    desc "starting sunspot..."
-    system("bundle exec rake sunspot:solr:start")  
   end
 end

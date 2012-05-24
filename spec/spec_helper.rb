@@ -20,7 +20,6 @@ Rails.logger.level = 4
 # in spec/support/ and its subdirectories.
 Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
-$original_sunspot_session = Sunspot.session
 
 RSpec.configure do |config|
   # == Mock Framework
@@ -46,15 +45,6 @@ RSpec.configure do |config|
   config.infer_base_class_for_anonymous_controllers = false
   config.render_views
 
-  config.before do
-    Sunspot.session = Sunspot::Rails::StubSessionProxy.new($original_sunspot_session)
-  end
-
-  config.before :each, :solr => true do
-    Sunspot::Rails::Tester.start_original_sunspot_session
-    Sunspot.session = $original_sunspot_session
-    Sunspot.remove_all!
-  end
 
   config.include Devise::TestHelpers, :type => :controller
   config.after do
