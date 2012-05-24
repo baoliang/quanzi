@@ -26,9 +26,10 @@
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container">
-        <h3>
-          <a href="/"><%= image_tag("text_logo.png", :size =>"40*40") %></a>
+        <h3 style="width:40px">
+          <a href="/"><%= image_tag("text_logo.png", :size =>"40x40") %></a>
         </h3>
+
         <%= render_list :class => "nav" do |li|
            li << link_to(t("menu.topics"), topics_path)
            li << link_to(t("menu.wiki"), pages_path )
