@@ -27,7 +27,8 @@ RubyChina::Application.routes.draw do
   match "users/location/:id", :to => "users#location", :as => :location_users
   resources :users do
     member do
-      
+       get :topics    
+       get :favorites
     end
      
   end
