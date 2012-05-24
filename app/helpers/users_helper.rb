@@ -16,7 +16,7 @@ module UsersHelper
     name ||= login
     options['data-name'] = name
 
-    link_to(login, user_path(login), options)
+    link_to(name, user_path(login), options)
   end
 
   def user_avatar_width_for_size(size)
