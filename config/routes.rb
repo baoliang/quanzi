@@ -27,10 +27,12 @@ RubyChina::Application.routes.draw do
   match "users/location/:id", :to => "users#location", :as => :location_users
   resources :users do
     member do
-      get :topics
-      get :favorites
+      
     end
+     
   end
+  match "users/*id/topics"    => "users#topics", format: false
+  match "users/*id/favorites"    => "users#favorites", format: false
   resources :notifications, :only => [:index, :destroy] do
     collection do
       post :clear
