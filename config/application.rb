@@ -42,7 +42,8 @@ module RubyChina
 
     config.assets.enabled = true
     config.assets.version = '1.0'
-
+    config.assets.paths << "#{Rails.root}/app/assets/html"
+    config.assets.precompile += %w(404.html 500.html)
     config.generators do |g|
       g.test_framework :rspec
       g.fixture_replacement :factory_girl, :dir => "spec/factories"

@@ -5,12 +5,12 @@ defaults: &defaults
   admin_emails: 
     - "admin@admin.com"
   google_analytics_key: ""
-  upload_url: "http://ruby-china-files-dev.b0.upaiyun.com"
-  upyun_username: "test"
-  upyun_password: "123123"
-  upyun_bucket: "ruby-china-files-dev"
+  upload_url: "http://nongyouquan.b0.upaiyun.com"
+  upyun_username: "jfreebird"
+  upyun_password: "wwwsunboy1"
+  upyun_bucket: "nongyouquan"
   google_group_email: "shanghaionrails@googlegroups.com"
-  email_sender: 'no-reply@ruby-china.org'
+  email_sender: 'jfreebird@gmail.com'
   aws_access_key_id: ''
   aws_secret_access_key: ''
   twitter_token: "uJ9fBa53SmqrHBqs1qq5cg"
