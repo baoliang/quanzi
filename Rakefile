@@ -21,6 +21,10 @@ namespace :resque do
     
     system("rm /var/run/god/resque-1.8.0*.pid")
   end
+
+  task :restart_resque do
+    run "cd /var/quanzi; RAILS_ENV=production ./script/resque stop; RAILS_ENV=production ./script/resque start"
+  end
 end
 
 namespace :test do

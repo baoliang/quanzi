@@ -1,0 +1,20 @@
+<div class="sidebar">
+  <div class="box">
+    <h2>推荐关注</h2>
+    <p class="summary"></p>
+    <p>
+    </p>
+  </div>
+
+  <% if ["new","edit"].index(params[:action]) %>
+  <div class="box">
+    <ul>
+      <li>记事的第一行将自动成为标题</li>
+      <li>超级链接会自动转换为可点击的状态</li>
+      <li>目前只支持纯文本格式</li>
+      <li>记事本的内容只有你自己才能看到</li>
+    </ul>
+  </div>
+  <% end %>
+</div>
+

@@ -1,5 +1,13 @@
 # coding: utf-8
 class AccountController < Devise::RegistrationsController
+  layout "out_page", :only => [:new]
+  before_filter :set_login, :only => [:show]
+  def set_login
+    p params
+    if params["users"]["login"] == ""
+      params["users"]["login"] = params["users"]["email"] 
+    end
+  end
   def edit
     @user = current_user
     # 首次生成用户 Token

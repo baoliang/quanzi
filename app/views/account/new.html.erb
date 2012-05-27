@@ -1,28 +1,26 @@
-<% content_for :sitemap do %><span class="current">加入社区</span><% end %>
-<div class="content">
-    <div class="box">
-    <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
-      <%= render "shared/error_messages", :target => resource %> 
-      <fieldset>
-        <legend><%= t("users.register_user")%></legend>
-        <%= f.hidden_field :login, :hint => t("users.suggest_using_email_id"), :id => "login" %>
-        <%= f.input :email, :input_html => { :class => "span5", :placeholder => "foo@bar.com", :id => "email" } %>
-        <%= f.input :name %>
-        <%= f.input :password %>
-        <%= f.input :password_confirmation %>
-        <div class="form-actions">
-          <%= f.submit "提交注册信息", :class => "btn btn-primary", :disable_with => t("common.submitting") %>
-        </div>
-      </fieldset>
-    <% end %>
-  </div>
+<% content_for :styles do %>
+ <%= stylesheet_link_tag "account" %>
+<% end %>
+<h1 class="account_logo">
+  找到<span class="red">农业圈</span>的<span class="red">人</span>
+</h1>
+<div class="account_center">
+<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+  
+    <%= f.hidden_field :login, :hint => t("users.suggest_using_email_id"), :id => "login" %>
+    <%= f.input :email, :input_html => {  :placeholder => "24750197@qq.com", :id => "email" } %>
+    <%= f.input :name %>
+    <%= f.input :password %>
+    <%= f.input :password_confirmation %>
 </div>
 
-<div class="sidebar">
-  <div class="box">
-    <h2><%= t("users.already_have_account")%></h2>
-    <p style="line-height:20px;">
-      <%= render :partial => "devise/shared/links" %>
-    </p>
-  </div>
-</div>
+
+<%= render "shared/error_messages", :target => resource %> 
+    
+<%= notice_message %>
+<div class="account_foot">
+  <%= f.submit "提交注册信息", :class => "btn btn-large btn-primary", :disable_with => t("common.submitting") %>
+  <%= t("users.already_have_account")%>
+  <%= render :partial => "devise/shared/links" %>
+</div> 
+<% end %>

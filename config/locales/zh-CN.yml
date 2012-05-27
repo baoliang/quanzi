@@ -3,8 +3,8 @@
     models:
       user: "用户"
       topic: "话题"
-      post: 文章
-      page: Wiki
+      post: "文章"
+      page: "知识库"
     attributes:
       user:
         name: "姓名"
@@ -15,7 +15,7 @@
         bio: "个人介绍"
         password: "密码"
         password_confirmation: "确认密码"
-        website: "个人主页"
+        website: "主页"
         last_logined_at: "上次登录时间"
         tagline: "签名"
         state: "状态"

@@ -1,35 +1,22 @@
-<% content_for :sitemap do %><span class="current">加入社区</span><% end %>
-<div class="content">
-    <div class="box">
-    <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
-      <fieldset>
-        <legend><%= t("common.login") %></legend>
-        <%= f.input :login, :input_html => { :style => "width:180px;" } %>
-        <%= f.input :password, :input_html => { :style => "width:180px;" } %>
-        <% if devise_mapping.rememberable? -%>
-        <div class="control-group checkbox optional">
-          <label class="checkbox optional control-label"></label>
-          <div class="controls">
-            <div class="inputs-list"><label for="user_remember_me"><%= f.check_box :remember_me, :style => "width:auto;" %> <%= t("common.remember_me") %></label></div>
-          </div>
-        </div>
-        <% end -%>
-        <div class="form-actions">
-          <%= f.submit t("common.login"), :class => "btn btn-primary", :disable_with => t("common.logining") %>
-        </div>
-      </fieldset>
-    <% end %>
-  </div>
+<% content_for :styles do %>
+ <%= stylesheet_link_tag "account" %>
+<% end %>
+<h1 class="account_logo">
+  找到<span class="red">农业圈</span>的<span class="red">人</span>
+</h1>
+<div class="account_center">
+<%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+  
+    <%= f.input :login, :input_html => { :style => "width:351px;height:40px" } %>
+    <%= f.input :password, :input_html => { :style => "width:351px;height:40px;" } %>
+	
+	
+</div> 	
+<%= notice_message %>
+<div class="account_foot">
+   <%= f.submit t("common.login"), :class => "btn btn-primary btn-large", :disable_with => t("common.logining") %>
+  <span>还没有帐号？</span>
+  <%= render :partial => "devise/shared/links" %>
 </div>
-<div class="sidebar">
-  <div class="box">
-    <h2>还没有帐号？</h2>
-    <%= render :partial => "devise/shared/links" %>
-  </div>
-  <div class="box">
-        <h2>用其他平台的帐号登录</h2>
-        <ul>
-          <li><%= link_to "Github", user_omniauth_authorize_path(:github) %> </li>
-        </ul>
-    </div>
-</div>
+<% end %>
+

@@ -2,8 +2,14 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   before_filter :init_page
-
   def init_page
+    if !current_user
+      if !["/account/sign_in", "/account/sign_up", "/account/password/new"].include? request.path 
+         
+        redirect_to "/account/sign_in?from=#{request.path}"
+        
+      end
+    end
     load_unread_notifications_count
   end
 
@@ -28,6 +34,7 @@ class ApplicationController < ActionController::Base
     title ||= @page_title
     url ||= url_for
     if title
+      @breadcrumbs[0] = "<a href='/'>首页</a>".html_safe
       @breadcrumbs.push(%(<a href="#{url}" itemprop="url"><span itemprop="title">#{title}</span></a>).html_safe)
     end
   end

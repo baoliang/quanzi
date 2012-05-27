@@ -1,0 +1,15 @@
+<div id="feed" class="form">
+
+<%= simple_form_for(@feed) do |f| %>
+  <%= render "/shared/error_messages", :target => @feed  %>
+  <fieldset>
+    <legend><%= t("common.edit") %></legend>
+      <%= f.input :created_at %>
+      <%= f.input :text %>
+      <%= f.input :user %>
+      <div class="form-actions">
+      <%= f.submit t("common.save"), :class => "btn btn-primary" %> or <%= link_to t("common.cancel"), feeds_path %>
+    </div>
+  </fieldset>
+<% end %>
+</div>

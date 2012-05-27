@@ -78,15 +78,17 @@
   sites:
     create: 提交信息
   menu:
+    feeds: "动态消息"
     topics: "社区"
+    fedds: "社区"
     wiki: "知识库"
     posts: "文章"
-    users: "会员"
+    users: "圈子里的人"
     cpanel: "后台"
     notes: "记事本"
     nodes: "节点"
     sites: "黄页"
-    my_home_page: "我的主页"
+    my_home_page: "关于我"
     edit_account_path: "个人资料设置"
     likes: "我的收藏"
   comments:
