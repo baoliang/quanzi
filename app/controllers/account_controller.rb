@@ -1,6 +1,6 @@
 # coding: utf-8
 class AccountController < Devise::RegistrationsController
-  layout "out_page", :only => [:new]
+  layout "out_page", :only => [:new, :create]
   before_filter :set_login, :only => [:show]
   def set_login
     p params

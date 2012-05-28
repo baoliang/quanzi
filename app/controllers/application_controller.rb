@@ -4,10 +4,8 @@ class ApplicationController < ActionController::Base
   before_filter :init_page
   def init_page
     if !current_user
-      if !["/account/sign_in", "/account/sign_up", "/account/password/new"].include? request.path 
-         
+      if !["/account/sign_in", "/account/sign_up", "/account/password/new", "/account", "/account/password"].include? request.path 
         redirect_to "/account/sign_in?from=#{request.path}"
-        
       end
     end
     load_unread_notifications_count
