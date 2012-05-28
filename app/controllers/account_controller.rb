@@ -1,7 +1,7 @@
 # coding: utf-8
 class AccountController < Devise::RegistrationsController
   layout "out_page", :only => [:new, :create]
-  before_filter :set_login, :only => [:show]
+  before_filter :set_login, :only => [:show, :create]
   def set_login
     p params
     if params["users"]["login"] == ""
