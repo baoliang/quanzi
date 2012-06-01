@@ -6,6 +6,7 @@ RubyChina::Application.configure do
   # Code is not reloaded between requests
   config.cache_classes = true
 
+  config.action_mailer.default_url_options = { :host => 'nongyougongshe.com' }
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true

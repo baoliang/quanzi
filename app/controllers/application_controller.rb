@@ -3,9 +3,13 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   before_filter :init_page
   def init_page
+    p request.url
     if !current_user
       if !["/account/sign_in", "/account/sign_up", "/account/password/new", "/account", "/account/password"].include? request.path 
-        redirect_to "/account/sign_in?from=#{request.path}"
+        if ! /\/account\/password\/edit/.match request.path 
+          
+          redirect_to "/account/sign_in?from=#{request.path}"
+        end
       end
     end
     load_unread_notifications_count
