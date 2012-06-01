@@ -1,0 +1,20 @@
+<% content_for :styles do %>
+ <%= stylesheet_link_tag "accounts" %>
+<% end %>
+<h1 class="account_logo">
+  找到<span class="red">农业圈</span>的<span class="red">人</span>
+</h1>
+<%= render "shared/error_messages", :target => resource %> 
+  
+<div class="account_center">
+<%= simple_form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :put }) do |f| %>
+  
+    <%= f.hidden_field :reset_password_token %>
+    <%= f.input :password %>
+    <%= f.input :password_confirmation %>
+</div>
+<div class="account_foot">   
+      <%= f.submit "修改我的密码", :class => "btn btn-success", :disable_with => t("common.submitting") %>
+<% end %>
+</div>
+
