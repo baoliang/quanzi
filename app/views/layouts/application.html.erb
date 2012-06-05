@@ -43,10 +43,7 @@
       <%= render_list :class => "nav" do |li|
           li << link_to(t("menu.my_home_page"), user_path(current_user.login))
           li << link_to(t("menu.topics"), topics_path)
-          li << link_to(t("menu.notes"), notes_path )
           li << link_to(t("menu.wiki"), pages_path )
-          li << link_to(t("menu.sites"), sites_path )
-          li << link_to(t("menu.users"), users_path)
         end %>
   </div>
   <% end %>

@@ -12,7 +12,8 @@ group :assets do
   gem 'coffee-rails', "~> 3.2.1"
   gem 'uglifier', '>= 1.0.3'
 end
-
+gem 'riddle'
+gem mongoidsphinx, :require => 'mongoid_sphinx'
 # 上传组件
 gem 'carrierwave', '0.6.2'
 gem 'carrierwave-mongoid', '0.2.0', :require => 'carrierwave/mongoid'
