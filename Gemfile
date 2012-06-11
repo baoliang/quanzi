@@ -6,7 +6,7 @@ gem "jquery-rails", "2.0.1"
 gem "rails_autolink", ">= 1.0.4"
 gem "jquery-atwho-rails", "0.1.3"
 gem "daemon-spawn"
-
+gem 'kgio' 
 group :assets do
   gem 'sass-rails', "~> 3.2.3"
   gem 'coffee-rails', "~> 3.2.1"
