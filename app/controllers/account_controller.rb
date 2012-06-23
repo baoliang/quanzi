@@ -2,6 +2,7 @@
 class AccountController < Devise::RegistrationsController
   layout "out_page", :only => [:new, :create]
   before_filter :set_login, :only => [:create]
+
   def set_login
     p params["users"]
     p params

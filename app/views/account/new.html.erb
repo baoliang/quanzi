@@ -1,6 +1,7 @@
 <%= render "base"%>
 <h1 class="account_logo">
-  找到<span class="red">农业圈</span>的<span class="red">人</span>
+	<%= raw SiteConfig.welcome %>
+  这里是<span class="red">农友圈</span></span>
 </h1>
 <div class="account_center">
 <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>

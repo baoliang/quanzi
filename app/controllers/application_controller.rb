@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   def init_page
     p request.url
     if !current_user
-      if !["/account/sign_in", "/account/sign_up", "/account/password/new", "/account", "/account/password"].include? request.path 
+      if !["/account/sign_in","/test/show",  "/account/sign_up", "/account/password/new", "/account", "/account/password"].include? request.path 
         if ! /\/account\/password\/edit/.match request.path 
           
           redirect_to "/account/sign_in?from=#{request.path}"

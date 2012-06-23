@@ -18,6 +18,7 @@ RubyChina::Application.routes.draw do
 
   devise_for :users, :path => "account", :controllers => {
       :registrations => :account,
+      :hello => :hello,
       :sessions => :sessions,
       :passwords => :passwords,
       :omniauth_callbacks => "users/omniauth_callbacks"
@@ -97,6 +98,7 @@ RubyChina::Application.routes.draw do
     resources :sites
     resources :locations
   end
+  resources :test
 
   mount RubyChina::API => "/"
 end
